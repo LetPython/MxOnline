@@ -16,8 +16,8 @@ import sys
 
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(BASE_DIR, "apps"))  # APP放在一起的时候，解决命令行运行找不到APP的问题
-sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))  # APP放在一起的时候，解决命令行运行找不到APP的问题
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))  # APP放在一起的时候，解决找不到APP的问题
+sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))  # APP放在一起的时候，解决找不到APP的问题
 # Quick-start development settings - unsuitable for
 # production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/

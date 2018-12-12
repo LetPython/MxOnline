@@ -33,12 +33,16 @@ class EmailVerifyRecord(models.Model):
     """
     code = models.CharField(max_length=20, verbose_name=u'验证码')
     email = models.EmailField(max_length=50, verbose_name=u'邮箱')
-    send_type = models.CharField(max_length=10, choices=(('register', u'注册'), ('forget', u'找回')))  # 验证码的类型，注册时和找回时
-    send_time = models.DateTimeField(default=datetime.now)  # 发送的时间
+    send_type = models.CharField(max_length=10, choices=(('register', u'注册'), ('forget', u'找回')),
+                                 verbose_name=u'验证码类型')  # 验证码的类型，注册时和找回时
+    send_time = models.DateTimeField(default=datetime.now, verbose_name=u'发送时间')  # 发送的时间
 
     class Meta:
         verbose_name = u'邮箱验证码'
         verbose_name_plural = verbose_name
+
+    def __unicode__(self):  # 相当于Python3 的 __str__
+        return '{0}({1})'.format(self.code, self.email)
 
 
 class Banner(models.Model):
