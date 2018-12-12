@@ -13,10 +13,13 @@ https://docs.djangoproject.com/en/1.9/ref/settings/
 
 import os
 import sys
+
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-sys.path.insert(0, os.path.join(BASE_DIR, "apps"))  # APP放在一起的时候，解决命名行运行找不到APP的问题
-# Quick-start development settings - unsuitable for production
+sys.path.insert(0, os.path.join(BASE_DIR, "apps"))  # APP放在一起的时候，解决命令行运行找不到APP的问题
+sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))  # APP放在一起的时候，解决命令行运行找不到APP的问题
+# Quick-start development settings - unsuitable for
+# production
 # See https://docs.djangoproject.com/en/1.9/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
@@ -40,6 +43,8 @@ INSTALLED_APPS = [
     'courses',
     'organization',
     'operation',
+    'xadmin',
+    'crispy_forms',
 ]
 AUTH_USER_MODEL = "users.UserProfile"  # 重载AUTH方法  app名.类名
 
@@ -109,17 +114,23 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/1.9/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+LANGUAGE_CODE = 'zh-hans'  # 中文 显示语言，默认en-us 英语
 
-TIME_ZONE = 'UTC'
+TIME_ZONE = 'Asia/beijing'  # 设置为北京时区  默认UTC
 
 USE_I18N = True
 
 USE_L10N = True
 
-USE_TZ = True
+USE_TZ = False  # 默认为True，默认取UTC 的时间。修改时间时要改为False
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.9/howto/static-files/
 
 STATIC_URL = '/static/'
+
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static')
+]
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
