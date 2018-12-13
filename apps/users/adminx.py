@@ -23,7 +23,7 @@ class GlobalSettings(object):
     """
     site_title = "慕学后台管理系统"  # 页面左上角
     site_footer = "慕学在线网"  # 页面最底部的文字
-    menu_style = "accordion"  # 设置左侧菜单栏 收 放
+    menu_style = "accordion"  # 设置左侧菜单栏 折叠
 
 
 class EmailVerifyRecordAdmin(object):

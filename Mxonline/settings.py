@@ -32,6 +32,10 @@ ALLOWED_HOSTS = []
 
 # Application definition
 
+AUTHENTICATION_BACKENDS = (  # 重定义 登录验证的 authenticate 方法
+    "users.views.CustomBackend",  # 引入在views 中自定义的类
+)
+
 INSTALLED_APPS = [
     'django.contrib.admin',
     'django.contrib.auth',
@@ -45,6 +49,7 @@ INSTALLED_APPS = [
     'operation',
     'xadmin',
     'crispy_forms',
+    'captcha',
 ]
 AUTH_USER_MODEL = "users.UserProfile"  # 重载AUTH方法  app名.类名
 
@@ -134,3 +139,13 @@ STATICFILES_DIRS = [
 ]
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+
+# 邮箱配置
+EMAIL_HOST = "smtp.sina.com"  # 配置邮件发送地址，该地址可在新浪邮箱的客户端设置里找到 SMTP服务器：smtp.sina.com
+EMAIL_PORT = 25  # 配置邮件的端口
+EMAIL_HOST_USER = "xinxinainixd@sina.com"
+EMAIL_HOST_PASSWORD = "XINxinAIziJI0328"
+EMAIL_USE_TLS = False
+EMAIL_FROM = "xinxinainixd@sina.com"  # 指明发件人
+
+
