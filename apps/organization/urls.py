@@ -15,6 +15,8 @@ urlpatterns = [
     url(r'^desc/(?P<org_id>\d+)/$', views.OrgDescView.as_view(), name="org_desc"),  # 机构介绍
     url(r'^teacher/(?P<org_id>\d+)/$', views.OrgTeacherView.as_view(), name="org_teacher"),  # 机构讲师
     url(r'^add_fav/$', views.AddFavView.as_view(), name="add_fav"),  # 添加机构收藏
+    url(r'^teacher/list/$', views.TeacherListView.as_view(), name="teacher_list"),  # 讲师列表页
+    url(r'^teacher/detail/(?P<teacher_id>\d+)/$', views.TeacherDetailView.as_view(), name="teacher_detail"),  # 讲师详情页
 
 ]
 

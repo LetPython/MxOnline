@@ -60,6 +60,7 @@ class Teacher(models.Model):
     click_num = models.IntegerField(default=0, verbose_name=u"点击数")
     fav_num = models.IntegerField(default=0, verbose_name=u"收藏数")
     image = models.ImageField(upload_to="teachers/%Y/%m", verbose_name=u"头像", max_length=100, default='')
+    age = models.IntegerField(default=20, verbose_name=u"年龄")
     add_time = models.DateTimeField(default=datetime.now, verbose_name=u"添加时间")
 
     class Meta:
@@ -68,3 +69,4 @@ class Teacher(models.Model):
 
     def __unicode__(self):
         return self.name
+

@@ -2,90 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="09296bbc-269c-41cf-a207-1a667bad7945" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0003_course_course_org.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0004_course_category.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0005_course_tag.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0006_video_url.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0007_video_learn_times.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0008_course_teacher.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/migrations/0009_auto_20181218_1710.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/courses/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/migrations/0002_auto_20181217_1216.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/migrations/0003_auto_20181217_1218.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/migrations/0004_auto_20181217_1721.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/migrations/0005_teacher_image.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/organization/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apps/utils/mixin_utils.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/course-comment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/course-detail.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/course-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/course-play.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/course-video.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/org-detail-course.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/org-detail-desc.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/org-detail-homepage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/org-detail-teachers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/org-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/org_base.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/organization/migrations/0006_teacher_eag.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/apps/organization/migrations/0007_auto_20181219_1428.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/teacher-detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/teachers-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Mxonline/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mxonline/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Mxonline/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Mxonline/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/courses/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/courses/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/courses/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/courses/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/operation/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/operation/adminx.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apps/organization/adminx.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/adminx.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/organization/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/apps/organization/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/apps/organization/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/apps/organization/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Entity/2016/11/default_middile_14_20161113173158_261.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Entity/2016/11/default_middile_1_20161113172604_856.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/Entity/ueditor/default_middile_13_20161113185849_453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/banner/2016/11/57a801860001c34b12000460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/banner/2016/11/57a801860001c34b12000460_z4Vb8zl.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/banner/2016/11/57aa86a0000145c512000460.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/banner/2016/11/57aa86a0000145c512000460_GXIBATC.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/banner/2016/11/57aa86a0000145c512000460_nMwvoQD.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/course/resource/2016/11/curl_wget.rar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/course/resource/2016/11/media.zip" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_MSIqfvw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_Z3HIQ2t.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_mvvGYHL.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_n0L8vbw.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/540e57300001d6d906000338-240-135_wH52IED.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/57035ff200014b8a06000338-240-135.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/57035ff200014b8a06000338-240-135_0nFiBSI.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/default_middile_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/11/mysql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/12/57035ff200014b8a06000338-240-135_dHfj8Nq.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/12/mysql.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/12/python文件处理.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/12/python错误和异常.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/2016/12/python面向对象.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/ueditor/57a801860001c34b12000460_z4Vb8zl_20161210233313_629.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/ueditor/57aa86a0000145c512000460_20161210234050_865.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/ueditor/aobama_20161113225004_372.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/courses/ueditor/aobama_20161113225044_773.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/bjdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_Gn1sRjp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_OO2ykYP.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_V0TJOyb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_Y2Tonsq.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_klgAUn5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/imooc_qEaMov1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/njdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/11/qhdx-logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/12/bjdx.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/12/bjdx_bcd0m07.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/12/bjdx_cCpdUw8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/12/imooc_Gn1sRjp.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/org/2016/12/imooc_klgAUn5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/teacher/2016/11/aobama.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/static/media/teacher/2016/11/aobama_CXWwMef.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -101,7 +28,7 @@
     <session id="941693013">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="12" />
+          <entry key="project.closed" value="13" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.25" value="1" />
           <entry key="project.open.time.3" value="1" />
@@ -111,38 +38,39 @@
           <entry key="project.open.time.42" value="1" />
           <entry key="project.open.time.45" value="1" />
           <entry key="project.open.time.51" value="3" />
+          <entry key="project.open.time.52" value="1" />
           <entry key="project.open.time.55" value="1" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="html" value="67" />
-          <entry key="jpg" value="3" />
+          <entry key="html" value="76" />
+          <entry key="jpg" value="4" />
           <entry key="png" value="5" />
-          <entry key="py" value="182" />
+          <entry key="py" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="67" />
-          <entry key="Image" value="8" />
-          <entry key="Python" value="182" />
+          <entry key="HTML" value="76" />
+          <entry key="Image" value="9" />
+          <entry key="Python" value="196" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="4016" />
-          <entry key="py" value="14978" />
-          <entry key="py@Mxonline" value="480" />
+          <entry key="html" value="4490" />
+          <entry key="py" value="15506" />
+          <entry key="py@Mxonline" value="495" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CommandLine" value="297" />
-          <entry key="HTML" value="4016" />
-          <entry key="PLAIN_TEXT" value="183" />
-          <entry key="Python" value="14978" />
+          <entry key="CommandLine" value="311" />
+          <entry key="HTML" value="4490" />
+          <entry key="PLAIN_TEXT" value="184" />
+          <entry key="Python" value="15506" />
         </counts>
       </usages-collector>
     </session>
@@ -182,100 +110,7 @@
     <favorites_list name="Mxonline" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/courses/urls.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3696">
-              <caret line="180" column="48" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="48" />
-              <folding>
-                <element signature="e#25#36#0" expanded="true" />
-                <marker date="1545189452461" expanded="true" signature="469:475" ph="..." />
-                <marker date="1545189452461" expanded="true" signature="1318:1323" ph="..." />
-                <marker date="1545189452461" expanded="true" signature="2328:2334" ph="..." />
-                <marker date="1545189452461" expanded="true" signature="3512:3518" ph="..." />
-                <marker date="1545189452461" expanded="true" signature="4512:4540" ph="..." />
-                <marker date="1545189452461" expanded="true" signature="5530:6697" ph="..." />
-                <marker date="1545189452461" expanded="true" signature="6696:6697" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/course-play.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#for#2;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
-              <folding>
-                <element signature="e#15#54#0" expanded="true" />
-                <marker date="1545124211368" expanded="true" signature="1634:1861" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3686">
-              <caret line="194" column="49" lean-forward="true" selection-start-line="194" selection-start-column="49" selection-end-line="194" selection-end-column="49" />
-              <folding>
-                <element signature="e#25#36#0" expanded="true" />
-                <marker date="1545104061542" expanded="true" signature="486:492" ph="..." />
-                <marker date="1545104061542" expanded="true" signature="2058:2064" ph="..." />
-                <marker date="1545104061542" expanded="true" signature="2613:2618" ph="..." />
-                <marker date="1545104061542" expanded="true" signature="5520:5525" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/course-video.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="87" column="77" lean-forward="true" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
-              <folding>
-                <element signature="n#block#3;n#!!top" />
-                <element signature="n#for#2;n#!!top" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/base.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="361">
-              <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -306,10 +141,15 @@
       <find>课程详情</find>
       <find>id=&quot;ma</find>
       <find>课程够高</find>
-      <find>收藏</find>
       <find>id=&quot;main</find>
       <find>章节</find>
       <find>评论</find>
+      <find>extra</find>
+      <find>sort</find>
+      <find>all_orgs</find>
+      <find>response</find>
+      <find>收藏</find>
+      <find>has_fav</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -322,8 +162,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/manage.py" />
-        <option value="$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1839582739/sys.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/sites.py" />
         <option value="$PROJECT_DIR$/extra_apps/xadmin/plugins/__init__.py" />
         <option value="$PROJECT_DIR$/apps/users/models.py" />
@@ -355,14 +193,8 @@
         <option value="$PROJECT_DIR$/templates/org-detail-desc.html" />
         <option value="$PROJECT_DIR$/templates/org-detail-teachers.html" />
         <option value="$PROJECT_DIR$/templates/org-detail-homepage.html" />
-        <option value="$PROJECT_DIR$/apps/organization/urls.py" />
-        <option value="$PROJECT_DIR$/apps/organization/views.py" />
-        <option value="$PROJECT_DIR$/Mxonline/urls.py" />
         <option value="$PROJECT_DIR$/apps/operation/adminx.py" />
-        <option value="$PROJECT_DIR$/apps/organization/models.py" />
         <option value="$PROJECT_DIR$/templates/org_base.html" />
-        <option value="$PROJECT_DIR$/templates/index.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/org-list.html" />
         <option value="$PROJECT_DIR$/templates/course-list.html" />
         <option value="$PROJECT_DIR$/apps/courses/models.py" />
@@ -373,6 +205,14 @@
         <option value="$PROJECT_DIR$/apps/courses/views.py" />
         <option value="$PROJECT_DIR$/templates/course-video.html" />
         <option value="$PROJECT_DIR$/templates/course-play.html" />
+        <option value="$PROJECT_DIR$/Mxonline/urls.py" />
+        <option value="$PROJECT_DIR$/templates/index.html" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
+        <option value="$PROJECT_DIR$/apps/organization/models.py" />
+        <option value="$PROJECT_DIR$/apps/organization/urls.py" />
+        <option value="$PROJECT_DIR$/templates/teachers-list.html" />
+        <option value="$PROJECT_DIR$/apps/organization/views.py" />
+        <option value="$PROJECT_DIR$/templates/teacher-detail.html" />
       </list>
     </option>
   </component>
@@ -416,6 +256,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -438,17 +279,57 @@
               <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
               <item name="apps" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+              <item name="models.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="operation" type="462c0819:PsiDirectoryNode" />
+              <item name="models.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="apps" type="462c0819:PsiDirectoryNode" />
+              <item name="organization" type="462c0819:PsiDirectoryNode" />
+              <item name="models.py" type="8704e2dd:PyFileNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
+              <item name="courses" type="462c0819:PsiDirectoryNode" />
+              <item name="2018" type="462c0819:PsiDirectoryNode" />
+              <item name="12" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
               <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
               <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Mxonline" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Mxonline" type="b2602c69:ProjectViewProjectNode" />
@@ -459,7 +340,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -471,17 +351,17 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="H:\myself\learn_djang\Mxonline\static" />
-      <recent name="H:\myself\learn_djang\Mxonline\extra_apps" />
-      <recent name="H:\myself\learn_djang\Mxonline\apps" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="H:\myself\learn_djang\Mxonline\templates" />
       <recent name="H:\myself\learn_djang\Mxonline\static\media" />
       <recent name="H:\myself\learn_djang\Mxonline\static" />
       <recent name="H:\myself\learn_djang\Mxonline\extra_apps" />
       <recent name="H:\myself\learn_djang\Mxonline" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="H:\myself\learn_djang\Mxonline\static" />
+      <recent name="H:\myself\learn_djang\Mxonline\extra_apps" />
+      <recent name="H:\myself\learn_djang\Mxonline\apps" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -547,7 +427,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4903226" visible="true" weight="0.14765458" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4903226" visible="true" weight="0.14925373" />
       <window_info x="177" y="491" width="248" height="460" id="Structure" order="1" sideWeight="0.5144445" side_tool="true" weight="0.13219616" />
       <window_info id="Favorites" order="2" sideWeight="0.5096774" side_tool="true" weight="0.12260128" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -602,27 +482,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/templates/forgetpwd.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1050">
-          <caret line="102" column="26" lean-forward="true" selection-start-line="102" selection-start-column="26" selection-end-line="102" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/reset_fail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="8" column="6" lean-forward="true" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/apps/utils/email_send.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="893">
-          <caret line="62" column="16" lean-forward="true" selection-start-line="62" selection-start-column="16" selection-end-line="62" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/users/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
@@ -680,13 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Mxonline/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="533">
-          <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Envs/mxonline/Lib/site-packages/django/views/generic/base.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -729,16 +581,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="250" selection-start-line="250" selection-end-line="250" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Mxonline/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="41" column="72" selection-start-line="41" selection-start-column="72" selection-end-line="41" selection-end-column="72" />
-          <folding>
-            <element signature="e#723#764#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -812,13 +654,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="12" column="31" selection-start-line="12" selection-start-column="16" selection-end-line="12" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/apps/operation/adminx.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -826,34 +661,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="45" selection-start-line="42" selection-start-column="45" selection-end-line="42" selection-end-column="45" />
-          <folding>
-            <marker date="1545118474220" expanded="true" signature="1544:1596" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/org_base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3834">
           <caret line="142" column="24" lean-forward="true" selection-start-line="142" selection-start-column="24" selection-end-line="142" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/org-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="87" column="47" selection-start-line="87" selection-start-column="47" selection-end-line="87" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -875,27 +686,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="32" column="34" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" selection-start-line="5" selection-end-line="7" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-detail.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/course-comment.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1615">
@@ -903,31 +693,157 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
+    <entry file="file://$PROJECT_DIR$/apps/courses/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3686">
-          <caret line="194" column="49" lean-forward="true" selection-start-line="194" selection-start-column="49" selection-end-line="194" selection-end-column="49" />
+        <state relative-caret-position="247">
+          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-play.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="59">
+          <caret line="63" column="17" lean-forward="true" selection-start-line="63" selection-start-column="17" selection-end-line="63" selection-end-column="17" />
           <folding>
-            <element signature="e#25#36#0" expanded="true" />
-            <marker date="1545104061542" expanded="true" signature="486:492" ph="..." />
-            <marker date="1545104061542" expanded="true" signature="2058:2064" ph="..." />
-            <marker date="1545104061542" expanded="true" signature="2613:2618" ph="..." />
-            <marker date="1545104061542" expanded="true" signature="5520:5525" ph="..." />
+            <element signature="e#4498#4536#0#DjangoTemplate" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-video.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="87" column="77" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
+          <folding>
+            <element signature="e#618#638#0#DjangoTemplate" />
+            <element signature="e#4913#4951#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/courses/2018/12/11.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mxonline/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="150" column="45" lean-forward="true" selection-start-line="150" selection-start-column="45" selection-end-line="150" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="456">
+          <caret line="86" column="33" lean-forward="true" selection-start-line="86" selection-start-column="33" selection-end-line="86" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="58" column="73" lean-forward="true" selection-start-line="58" selection-start-column="73" selection-end-line="58" selection-end-column="73" />
+        <state relative-caret-position="396">
+          <caret line="50" column="22" lean-forward="true" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="20" selection-end-column="19" />
+          <folding>
+            <element signature="e#44#61#0#DjangoTemplate" />
+            <element signature="e#95#120#0#DjangoTemplate" />
+            <element signature="e#153#177#0#DjangoTemplate" />
+            <element signature="n#section#0;n#!!top" />
+            <element signature="n#div#0;n#section#0;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#section#0;n#!!top" />
+            <element signature="n#section#1;n#!!top" />
+            <element signature="n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="e#719#738#0#DjangoTemplate" />
+            <element signature="e#826#848#0#DjangoTemplate" />
+            <element signature="e#939#966#0#DjangoTemplate" />
+            <element signature="n#li#2;n#ul#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="e#1296#1339#0#DjangoTemplate" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#span#0;n#a#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#span#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="e#3092#3097#0#DjangoTemplate" />
+            <element signature="e#3136#3169#0#DjangoTemplate" />
+            <element signature="n#li#0;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="e#3429#3436#0#DjangoTemplate" />
+            <element signature="e#3475#3510#0#DjangoTemplate" />
+            <element signature="e#3551#3564#0#DjangoTemplate" />
+            <element signature="e#3609#3646#0#DjangoTemplate" />
+            <element signature="e#3697#3736#0#DjangoTemplate" />
+            <element signature="e#4370#4375#0#DjangoTemplate" />
+            <element signature="e#4414#4443#0#DjangoTemplate" />
+            <element signature="n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#a#0;n#li#4;n#ul#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="e#4990#5020#0#DjangoTemplate" />
+            <element signature="n#dl#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#dt#0;n#dl#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#a#0;n#dt#0;n#dl#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#img#0;n#a#0;n#dt#0;n#dl#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+            <element signature="n#dd#0;n#dl#0;n#div#1;n#div#1;n#div#0;n#div#0;n#section#1;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/org-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="538">
+          <caret line="132" column="26" selection-start-line="109" selection-start-column="20" selection-end-line="132" selection-end-column="26" />
+          <folding>
+            <element signature="e#44#61#0#DjangoTemplate" />
+            <element signature="e#96#118#0#DjangoTemplate" />
+            <element signature="e#151#175#0#DjangoTemplate" />
+            <element signature="e#773#798#0#DjangoTemplate" />
+            <element signature="e#962#991#0#DjangoTemplate" />
+            <element signature="e#1155#1182#0#DjangoTemplate" />
+            <element signature="e#1344#1371#0#DjangoTemplate" />
+            <element signature="e#1764#1788#0#DjangoTemplate" />
+            <element signature="e#1859#1886#0#DjangoTemplate" />
+            <element signature="e#2028#2074#0#DjangoTemplate" />
+            <element signature="e#2674#2693#0#DjangoTemplate" />
+            <element signature="e#2790#2817#0#DjangoTemplate" />
+            <element signature="e#3005#3031#0#DjangoTemplate" />
+            <element signature="e#3264#3308#0#DjangoTemplate" />
+            <element signature="e#5858#5871#0#DjangoTemplate" />
+            <element signature="e#5908#5942#0#DjangoTemplate" />
+            <element signature="e#5946#5985#0#DjangoTemplate" />
+            <element signature="e#8114#8146#0#DjangoTemplate" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/courses/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+        <state relative-caret-position="-1680">
+          <caret line="16" column="40" selection-start-line="16" selection-start-column="40" selection-end-line="16" selection-end-column="40" />
           <folding>
             <element signature="e#15#54#0" expanded="true" />
             <marker date="1545124211368" expanded="true" signature="1634:1861" ph="..." />
@@ -935,28 +851,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/apps/courses/urls.py">
+    <entry file="file://$PROJECT_DIR$/templates/teachers-list.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="15" column="85" selection-start-line="15" selection-start-column="85" selection-end-line="15" selection-end-column="85" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-video.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="87" column="77" lean-forward="true" selection-start-line="87" selection-start-column="77" selection-end-line="87" selection-end-column="77" />
-          <folding>
-            <element signature="n#block#3;n#!!top" />
-            <element signature="n#for#2;n#!!top" />
-          </folding>
+        <state relative-caret-position="390">
+          <caret line="118" column="28" lean-forward="true" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/apps/courses/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3696">
-          <caret line="180" column="48" selection-start-line="180" selection-start-column="48" selection-end-line="180" selection-end-column="48" />
+        <state relative-caret-position="2803">
+          <caret line="158" column="46" selection-start-line="158" selection-start-column="46" selection-end-line="158" selection-end-column="46" />
           <folding>
             <element signature="e#25#36#0" expanded="true" />
             <marker date="1545189452461" expanded="true" signature="469:475" ph="..." />
@@ -964,20 +869,60 @@
             <marker date="1545189452461" expanded="true" signature="2328:2334" ph="..." />
             <marker date="1545189452461" expanded="true" signature="3512:3518" ph="..." />
             <marker date="1545189452461" expanded="true" signature="4512:4540" ph="..." />
-            <marker date="1545189452461" expanded="true" signature="5530:6697" ph="..." />
-            <marker date="1545189452461" expanded="true" signature="6696:6697" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/course-play.html">
+    <entry file="file://$PROJECT_DIR$/apps/organization/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="83" column="24" selection-start-line="83" selection-start-column="24" selection-end-line="83" selection-end-column="24" />
+        <state relative-caret-position="255">
+          <caret line="257" column="34" selection-start-line="257" selection-start-column="34" selection-end-line="257" selection-end-column="34" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#for#2;n#!!top" />
+            <element signature="e#25#36#0" expanded="true" />
+            <marker date="1545205835366" expanded="true" signature="495:501" ph="..." />
+            <marker date="1545205835366" expanded="true" signature="2067:2073" ph="..." />
+            <marker date="1545205835366" expanded="true" signature="2622:2627" ph="..." />
+            <marker date="1545205835366" expanded="true" signature="5530:5536" ph="..." />
+            <marker date="1545205835366" expanded="true" signature="6976:6982" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mxonline/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="707">
+          <caret line="42" column="72" selection-start-line="42" selection-start-column="72" selection-end-line="42" selection-end-column="72" />
+          <folding>
+            <element signature="e#723#764#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/teacher-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="186" column="4" lean-forward="true" selection-start-line="186" selection-start-column="4" selection-end-line="186" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/organization/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="49" column="6" selection-start-line="49" selection-start-column="6" selection-end-line="49" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/apps/operation/models.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="47" column="58" selection-start-line="47" selection-start-column="58" selection-end-line="47" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/course-detail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="33" lean-forward="true" selection-start-line="14" selection-start-column="20" selection-end-line="15" selection-end-column="33" />
         </state>
       </provider>
     </entry>

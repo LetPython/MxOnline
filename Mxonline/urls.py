@@ -40,6 +40,7 @@ urlpatterns = [
 
     url(r'^org/', include('organization.urls', namespace='org')),  # 课程机构的URL配置
     url(r'^course/', include('courses.urls', namespace='course')),  # 课程的URL配置
+    url(r'^course/', include('courses.urls', namespace='course')),  # 讲师的URL配置
 
     url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT})  # 配置上传图片的查找路径
 
