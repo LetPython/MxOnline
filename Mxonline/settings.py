@@ -50,6 +50,7 @@ INSTALLED_APPS = [
     'xadmin',
     'crispy_forms',
     'captcha',
+    'pure_pagination',
 ]
 AUTH_USER_MODEL = "users.UserProfile"  # 重载AUTH方法  app名.类名
 
@@ -78,6 +79,7 @@ TEMPLATES = [
                 'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
+                'django.core.context_processors.media',  # Django的media处理类
             ],
         },
     },
@@ -148,4 +150,7 @@ EMAIL_HOST_PASSWORD = "XINxinAIziJI0328"
 EMAIL_USE_TLS = False
 EMAIL_FROM = "xinxinainixd@sina.com"  # 指明发件人
 
+# 上传图片的路径配置
+MEDIA_URL = '/static/media/'  # 在模板语言中引用
+MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')  # 只能设置一个路径
 

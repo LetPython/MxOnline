@@ -9,11 +9,11 @@ from .models import Course, CourseResource, Lesson, Video
 
 
 class CourseAdmin(object):
-    list_display = ["name", "desc", "detail", "degree", "learn_times", "students", "fav_nums", "image", "click_nums",
+    list_display = ["course_org", "name", "desc", "detail", "degree", "learn_times", "students", "fav_nums", "image", "click_nums",
                     "add_time"]
-    list_filter = ["name", "desc", "detail", "degree", "learn_times", "students", "fav_nums", "click_nums",
+    list_filter = ["course_org", "name", "desc", "detail", "degree", "learn_times", "students", "fav_nums", "click_nums",
                    "add_time"]
-    search_fields = ["name", "desc", "detail", "degree", "learn_times", "students", "fav_nums", "image", "click_nums"]
+    search_fields = ["course_org", "name", "desc", "detail", "degree", "learn_times", "students", "fav_nums", "image", "click_nums"]
 
 
 class CourseResourceAdmin(object):

@@ -15,9 +15,9 @@ class CourseCommentsAdmin(object):
 
 
 class UserCourseAdmin(object):
-    list_display = []
-    list_filter = []
-    search_fields = []
+    list_display = ["user", "course", "add_time"]
+    list_filter = ["user", "course", "add_time"]
+    search_fields = ["user", "course"]
 
 
 class UserAskAdmin(object):
