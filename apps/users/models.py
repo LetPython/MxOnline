@@ -26,6 +26,10 @@ class UserProfile(AbstractUser):
     def __unicode__(self):  # 相当于Python3 的 __str__
         return self.username
 
+    def unread_nums(self):  # 获取用户未读消息
+        from operation.models import UserMessage
+        return UserMessage.objects.filter(user=self.id, has_read=False).count()
+
 
 class EmailVerifyRecord(models.Model):
     """
@@ -33,8 +37,8 @@ class EmailVerifyRecord(models.Model):
     """
     code = models.CharField(max_length=20, verbose_name=u'验证码')
     email = models.EmailField(max_length=50, verbose_name=u'邮箱')
-    send_type = models.CharField(max_length=10, choices=(('register', u'注册'), ('forget', u'找回')),
-                                 verbose_name=u'验证码类型')  # 验证码的类型，注册时和找回时
+    send_type = models.CharField(max_length=10, choices=(('register', u'注册'), ('forget', u'找回'), ('update', u'修改邮箱')),
+                                 verbose_name=u'验证码类型')  # 验证码的类型，注册时和找回，修改
     send_time = models.DateTimeField(default=datetime.now, verbose_name=u'发送时间')  # 发送的时间
 
     class Meta:

@@ -26,9 +26,9 @@ sys.path.insert(0, os.path.join(BASE_DIR, "extra_apps"))  # APP放在一起的�
 SECRET_KEY = '$b$w)86+9*gs8@^d+p%2y#d&hwbkz#q$@k^m5(qkcu2a$st)&t'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = True  # 开发的过程中默认设置为True时，页面出错是显示错误信息的， 设置的404页面是不起作用的。
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']  # DEBUG = False 时必须设置。 允许链接的IP地址，用*代替所有的客户端都可以连
 
 # Application definition
 
@@ -51,6 +51,7 @@ INSTALLED_APPS = [
     'crispy_forms',
     'captcha',
     'pure_pagination',
+    'DjangoUeditor',
 ]
 AUTH_USER_MODEL = "users.UserProfile"  # 重载AUTH方法  app名.类名
 
@@ -136,9 +137,10 @@ USE_TZ = False  # 默认为True，默认取UTC 的时间。修改时间时要改
 
 STATIC_URL = '/static/'
 
-STATICFILES_DIRS = [
+STATICFILES_DIRS = [   # 将 DEBUG=False 时，自动失效
     os.path.join(BASE_DIR, 'static')
 ]
+
 PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
 STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
 
@@ -153,4 +155,6 @@ EMAIL_FROM = "xinxinainixd@sina.com"  # 指明发件人
 # 上传图片的路径配置
 MEDIA_URL = '/static/media/'  # 在模板语言中引用
 MEDIA_ROOT = os.path.join(BASE_DIR, 'static/media')  # 只能设置一个路径
+
+# STATIC_ROOT = os.path.join(BASE_DIR, 'static')  # 将 DEBUG=False 时, 自定设置的static查找
 

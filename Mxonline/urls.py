@@ -24,13 +24,15 @@ from django.views.static import serve  # 处理静态文件的方法
 
 from users import views as user_views
 from organization import views as org_views
-from Mxonline.settings import MEDIA_ROOT  # 图片的上传路径
+from Mxonline.settings import MEDIA_ROOT, STATIC_ROOT # 图片的上传路径
 
 urlpatterns = [
     url(r'^xadmin/', xadmin.site.urls),
-    url(r'^$', TemplateView.as_view(template_name="index.html"), name="index"),  # 首页
+
+    url(r'^$', user_views.IndexView.as_view(), name="index"),  # 首页
 
     url(r'^login/$', user_views.LoginView.as_view(), name="login"),  # 登录页
+    url(r'^logout/$', user_views.LogoutView.as_view(), name="logout"),  # 退出
     url(r'^register/$', user_views.RegisterView.as_view(), name="register"),  # 注册
     url(r'^captcha/', include('captcha.urls')),  # 生成验证码的插件
     url(r'^active/(?P<active_code>[a-zA-Z0-9]{16})/$', user_views.ActiveView.as_view(), name="user_active"),  # 用户激活
@@ -40,8 +42,13 @@ urlpatterns = [
 
     url(r'^org/', include('organization.urls', namespace='org')),  # 课程机构的URL配置
     url(r'^course/', include('courses.urls', namespace='course')),  # 课程的URL配置
-    url(r'^course/', include('courses.urls', namespace='course')),  # 讲师的URL配置
+    url(r'^users/', include('users.urls', namespace='user')),  # 用户的URL配置
 
-    url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT})  # 配置上传图片的查找路径
+    url(r'^media/(?P<path>.*)$', serve, {"document_root": MEDIA_ROOT}),  # 配置上传图片的查找路径
+    # url(r'^static/(?P<path>.*)$', serve, {"document_root": STATIC_ROOT}),  # 配置static的访问函数
 
+    url(r'^ueditor/', include('DjangoUeditor.urls')),  # 富文本插件相关url
 ]
+
+handler404 = 'users.views.page_not_found'  # 全局配置404页面
+handler500 = 'users.views.page_error'  # 全局配置404页面

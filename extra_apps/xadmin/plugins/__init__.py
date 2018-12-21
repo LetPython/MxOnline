@@ -29,7 +29,7 @@ PLUGINS = (
     'quickfilter',
     'sortablelist',
 	'importexport',
-    #'ueditor',
+    'ueditor',
 	'excel'
 )
 
@@ -41,3 +41,20 @@ def register_builtin_plugins(site):
     exclude_plugins = getattr(settings, 'XADMIN_EXCLUDE_PLUGINS', [])
 
     [import_module('xadmin.plugins.%s' % plugin) for plugin in PLUGINS if plugin not in exclude_plugins]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

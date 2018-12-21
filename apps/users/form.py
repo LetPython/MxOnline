@@ -10,6 +10,8 @@ __date__ = '2018/12/13 11:34'
 from django import forms
 from captcha.fields import CaptchaField
 
+from .models import UserProfile
+
 
 class LoginForm(forms.Form):
     """
@@ -42,3 +44,21 @@ class ModifyForm(forms.Form):
     """
     password1 = forms.CharField(required=True, min_length=6, error_messages={"min_length": u"不能少于6位"})
     password2 = forms.CharField(required=True, min_length=6, error_messages={"min_length": u"不能少于6位"})
+
+
+class UploadImageForm(forms.ModelForm):
+    """
+    用户修改头像
+    """
+    class Meta:
+        model = UserProfile  # 指明是用那个model转换的modelform
+        fields = ["image"]  # 需要选择转换的字段
+
+
+class UserInfoForm(forms.ModelForm):
+    """
+    用户信息修改
+    """
+    class Meta:
+        model = UserProfile  # 指明是用那个model转换的modelform
+        fields = ["nick_name", "gender", "birday", "address", "mobile"]  # 需要选择转换的字段

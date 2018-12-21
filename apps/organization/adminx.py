@@ -16,8 +16,9 @@ class CityAdmin(object):
 
 class CourseOrgAdmin(object):
     list_display = ["name", "desc", "category", "click_num", "fav_num", "image", "address", "city", "add_time"]
-    search_fields = ["name", "desc", "category", "click_num", "fav_num", "image", "address", "city"]
+    search_fields = ["name", "desc", "category", "click_num", "fav_num", "image", "address", "city__name"]
     list_filter = ["name", "desc", "category", "click_num", "fav_num", "image", "address", "city", "add_time"]
+    relfield_style = 'fk-ajax'  # 当有model的外键指向当前model的时候，以ajax的方式加载，将默认的下拉式选择变成搜索式选择
 
 
 class TeacherAdmin(object):

@@ -5,8 +5,12 @@ __date__ = '2018/12/12 17:22'  # 时间
 
 import xadmin
 from xadmin import views
+# from xadmin.plugins.auth import UserAdmin
+from .models import EmailVerifyRecord, Banner, UserProfile
 
-from .models import EmailVerifyRecord, Banner
+
+# class UserProfileAdmin(UserAdmin):
+#     pass
 
 
 class BaseSetting(object):
@@ -30,6 +34,7 @@ class EmailVerifyRecordAdmin(object):
     list_display = ["code", "email", "send_type", "send_time"]  # 设置页面默认显示的列
     search_fields = ["code", "email", "send_type"]  # 设置页面搜索字段，不能对时间搜索
     list_filter = ["code", "email", "send_type", "send_time"]  # 设置筛选字段
+    model_icon = 'fa fa-envelope-o'  # 后台管理系统的左侧列表的图标设置
 
 
 class BannerAdmin(object):
@@ -38,7 +43,10 @@ class BannerAdmin(object):
     list_filter = ["title", "image", "url", "index", "add_time"]  # 设置筛选字段
 
 
+# from django.contrib.auth.models import User
+# xadmin.site.unregister(User)
 xadmin.site.register(EmailVerifyRecord, EmailVerifyRecordAdmin)
 xadmin.site.register(Banner, BannerAdmin)
+# xadmin.site.register(UserProfile, UserProfileAdmin)
 xadmin.site.register(views.BaseAdminView, BaseSetting)
 xadmin.site.register(views.CommAdminView, GlobalSettings)

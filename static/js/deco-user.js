@@ -22,11 +22,10 @@ function sendCodeChangeEmail($btn){
         success: function(data){
             if(data.email){
                 Dml.fun.showValidateError($('#jsChangeEmail'), data.email);
-            }else if(data.status == 'success'){
+            }else if(data.status === 'success'){
                 Dml.fun.showErrorTips($('#jsChangeEmailTips'), "邮箱验证码已发送");
-            }else if(data.status == 'failure'){
+            }else if(data.status === 'failure'){
                  Dml.fun.showValidateError($('#jsChangeEmail'), "邮箱验证码发送失败");
-            }else if(data.status == 'success'){
             }
         },
         complete: function(XMLHttpRequest){
@@ -61,7 +60,7 @@ var verify = verifyDialogSubmit(
         success: function(data) {
             if(data.email){
                 Dml.fun.showValidateError($('#jsChangeEmail'), data.email);
-            }else if(data.status == "success"){
+            }else if(data.status === "success"){
                 Dml.fun.showErrorTips($('#jsChangePhoneTips'), "邮箱信息更新成功");
                 setTimeout(function(){location.reload();},1000);
             }else{
@@ -81,7 +80,7 @@ $(function(){
         Dml.fun.showDialog('#jsResetDialog', '#jsResetPwdTips');
     });
 
-    $('#jsResetPwdBtn').click(function(){
+    $('#jsResetPwdBtn').on('click', function(){
         $.ajax({
             cache: false,
             type: "POST",
@@ -94,7 +93,7 @@ $(function(){
                     Dml.fun.showValidateError($("#pwd"), data.password1);
                 }else if(data.password2){
                     Dml.fun.showValidateError($("#repwd"), data.password2);
-                }else if(data.status == "success"){
+                }else if(data.status === "success"){
                     Dml.fun.showTipsDialog({
                         title:'提交成功',
                         h2:'修改密码成功，请重新登录!',

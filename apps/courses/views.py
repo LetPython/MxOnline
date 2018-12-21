@@ -4,6 +4,7 @@ import json
 from django.shortcuts import render
 from django.views.generic import View
 from django.http import HttpResponse
+from django.db.models import Q
 from pure_pagination import Paginator, EmptyPage, PageNotAnInteger
 
 from .models import Course, CourseResource, Video
@@ -21,6 +22,11 @@ class CourseListView(View):
     def get(self, request):
         all_courses = Course.objects.all().order_by("-add_time")
         hot_courses = Course.objects.all().order_by("-click_nums")[:3]
+
+        # 课程搜索
+        search_keywords = request.GET.get("keywords", '')  # 搜索关键词
+        if search_keywords:
+            all_courses = all_courses.filter(Q(name__icontains=search_keywords)|Q(desc__icontains=search_keywords)|Q(detail__icontains=search_keywords))
 
         # 课程排序
         sort = request.GET.get("sort", '')
@@ -81,6 +87,8 @@ class CourseInfoView(LoginRequiredMixin, View):
 
     def get(self, request, course_id):
         course = Course.objects.get(id=int(course_id))
+        course.students += 1
+        course.save()
 
         # 用户关联该课程
         user_courses = UserCourse.objects.filter(user=request.user, course=course)
